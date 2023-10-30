@@ -31,7 +31,7 @@ defmodule SnowflakeEx.MixProject do
       {:hackney, "~> 1.16"},
       {:mix_test_watch, "~> 1.0", only: :dev, runtime: false},
       {:plug, "~> 1.10"},
-      {:httpoison, "~> 1.7"},
+      {:httpoison, "~> 2.0"},
       {:uuid, "~> 1.1"},
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.0", only: [:dev], runtime: false},
